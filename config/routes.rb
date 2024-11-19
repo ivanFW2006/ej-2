@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  root "hello#index"
+  resources :tasks
+  # Otras rutas pueden ir aquí
 end
